@@ -6,7 +6,7 @@ class Info extends React.Component {
     render() {
         return (
             <div>
-                <p style={{ fontSize: 18, color: "#F4D13EFF", fontFamily: 'Comic Sans MS' }}>
+                <p style={{ fontSize: 18, color: "#F4D13EFF", fontFamily: 'emoji' }}>
                     <h2>AMZN Stock</h2>
                     5.4697% of posts have a negative sentiment score
                     <br />
@@ -62,10 +62,10 @@ class StockForm extends React.Component {
             <div className='input-container'>
                 <form onSubmit={this.handleSubmit}>
                     <label>
-                        <h1 style={{ fontSize: 40, color: "#F4D13EFF", fontFamily: 'Comic Sans MS' }}>
+                        <h1 style={{ fontSize: 40, color: "#F4D13EFF", fontFamily: 'emoji' }}>
                             Welcome to Stocky
                         </h1>
-                        <h1 style={{ fontSize: 30, color: "#F4D13EFF", fontFamily: 'Comic Sans MS' }}>
+                        <h1 style={{ fontSize: 30, color: "#F4D13EFF", fontFamily: 'emoji' }}>
                             Which stock are you interested in?
                         </h1>
                         <input type="text" value={this.state.value} onChange={this.handleChange} />
